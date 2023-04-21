@@ -1,0 +1,51 @@
+#logo {
+    position: absolute;
+    width: 827px;
+    height: 827px;
+    border-radius: 100%;
+    width: 827px;
+    height: 827px;
+    -webkit-transition: -webkit-box-shadow 0.4s ease-in-out;
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+#circle {
+    position: absolute;
+    width: 827px;
+    height: 827px;
+    background-color: rgb(138, 7, 205);
+    border-radius: 100%;
+}
+
+#logo:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+.square {
+    margin-top: 260px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 7.5%;
+}
+
+#square1 {
+    margin-left: 200px;
+    background-color: rgb(236, 208, 246);
+    transform: rotate(45deg);
+}
+
+#square2 {
+    margin-top: 295px;
+    margin-left: 235px;
+    width: 230px;
+    height: 230px;
+    background-color: rgb(138, 7, 205);
+    transform: rotate(45deg);
+}
+
+#square3 {
+    margin-left: 350px;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(45deg);
+}
